@@ -8,9 +8,9 @@ tomcat-redis-sessioon-manager是一个使用redis作为tomcat的session缓存的
 ##配置及使用
 ###1、拷贝tomcat-redis-session-manager-by-eguid.jar，jedis-2.9.0.jar，commons-pool2-2.2.jar到tomcat/lib目录下
 ###2、修改Tomcat context.xml (or the context block of the server.xml if applicable.)
-<Valve className="cn.eguid.redisSessionManager.RedisSessionHandlerValve"/>
+<!--<Valve className="cn.eguid.redisSessionManager.RedisSessionHandlerValve"/>
 <Manager className="cn.eguid.redisSessionManager.RedisSessionManager"
          host="192.168.30.21"
          port="6379"
          database="14"
-         maxInactiveInterval="1800"/>
+         maxInactiveInterval="1800"/>-->
