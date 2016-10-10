@@ -1,5 +1,7 @@
 # tomcat-redis-sessioon-manager
 tomcat-redis-sessioon-manager是一个使用redis作为tomcat的session缓存的tomcat-session管理器实现
+Tomcat-REDIS-sessioon-Manager implements Tomcat's session-manager redis persistence functionality
+####see jcoleman' project : https://github.com/jcoleman/tomcat-redis-session-manager
 ###The project is based on "jcoleman" second development version(本项目是基于jcoleman的二次开发版本)
 ####1、 modify some Code that is not compatible with tomcat8 and later versions (修改了小部分不兼容 tomcat8及以后版本的实现代码)
 ####2、Removal of "Juni.jar" dependency(去除对juni.jar包的依赖)
